@@ -9,7 +9,7 @@ Un fichier `Grid` possède des lignes contenant les différentes informations d'
 <id>|<coord:1>|<coord:2>|<coord:3>|<coord:4>|
 ```
 
-Les `<coord>` sont au fomat `<lat>,<lon>`. Ils représentes les extrémités de chacun des carrés.
+Les `<coord>` sont au fomat `<lat>,<lon>`. Ils représentent les extrémités de chacun des carrés.
 L'`<id>` est unique et est également référencé dans les fichiers `Color` (voir ci-dessous).
 
 ### `Color`
@@ -24,8 +24,8 @@ Les différentes couleurs disponibles sont :
 <tr><th>Nom de la couleur</th><th>Signification</th><th>Couleur</th></tr>
 </thead>
 <tbody>
-<tr><td>EMERGING</td><td>Le traffic augmente</td><td><div style="width:20px; height: 20px; background: #149718"></div></td></tr>
-<tr><td>DECREASING</td><td>Le traffic diminue</td><td><div style="width:20px; height: 20px; background: #b12e11"></div></td></tr>
+<tr><td>EMERGING</td><td>Le trafic augmente</td><td><div style="width:20px; height: 20px; background: #149718"></div></td></tr>
+<tr><td>DECREASING</td><td>Le trafic diminue</td><td><div style="width:20px; height: 20px; background: #b12e11"></div></td></tr>
 <tr><td>LATENT</td><td></td><td><div style="width:20px; height: 20px; background: #0c41e2"></div></td></tr>
 <tr><td>JUMPING</td><td></td><td><div style="width:20px; height: 20px; background: #3d3d2a"></div></td></tr>
 <tr><td>LOST</td><td>La donnée n'est plus disponible</td><td><div style="width:20px; height: 20px; background: #fffd38"></div></td></tr>
