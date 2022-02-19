@@ -30,6 +30,6 @@ cd ./front
 ng serve --open
 ```
 
-!> La variable d'environnement `MONGO_URL` ne sera pas pris en compte dans ce cas ! Il est nécessaire de recopier l'URL d'accès à la base de données dans le fichier `./server/database/mongo.js` dans la méthode `mongoose.connect()`. Par exemple :  `mongoose.connect('mongodb+srv://teamplay:mongodb-mongodb@teamplaycluster.quhje.mongodb.net/apinode' , function( error ){ })`
+!> La variable d'environnement `MONGO_URL` ne sera pas pris en compte dans ce cas ! Il est nécessaire de recopier l'URL d'accès à la base de données dans le fichier `./server/config.js`. Ce fichier de configuration sera utilisé dans le cas d'un lancement hors-Docker.
 
 Une fois lancé, l'interface utilisateur sera accessible à l'adresse http://localhost:4200.
