@@ -7,6 +7,10 @@
     * [Insertion manuelle](/doc/utilisation/insertion-manuelle)
     * [Insertion automatique](/doc/utilisation/insertion-automatique)
 * Spécifications
-    * [Exigences fonctionnelles](/doc/specs/fonctionnelles)
     * [Environnement](/doc/specs/env)
-    * [Exigences opérationnelles](/doc/specs/operationnelles)
+* Cas d'usage
+    * [Authentification](/doc/specs/login)
+    * [Visualisation](/doc/specs/visualisation)
+    * [Insertion](/doc/specs/insertion)
+* Références
+    * [Fichiers générés](/doc/ref/files)

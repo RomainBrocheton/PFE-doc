@@ -1,9 +1,10 @@
-# Spécifications opérationnelles
-## Fichiers générés
-### Introduction
+# Fichiers générés
+## Introduction
 Les fichiers générés contiennent toutes les informations permettant l'affichage des résultats obtenus sur la carte. Ils contiennent des coordonnées et les types des résultats (permettant de connaitre la couleur à afficher). Ces fichiers sont générés via des scripts `bash` exécutant un fichier `jar`. Aucune documentation sur la génération des fichiers n'a été trouvée à la reprise du projet en 2021.
 
-### `Grid`
+Des fichiers permettant de tester l'application sont contenus dans le dossier `/test_files`.
+
+## Grid
 Un fichier `Grid` possède des lignes contenant les différentes informations d'affichage de chaque carré à afficher. Chaque ligne est au format suivant :
 ```
 <id>|<coord:1>|<coord:2>|<coord:3>|<coord:4>|
@@ -12,7 +13,7 @@ Un fichier `Grid` possède des lignes contenant les différentes informations d'
 Les `<coord>` sont au fomat `<lat>,<lon>`. Ils représentent les extrémités de chacun des carrés.
 L'`<id>` est unique et est également référencé dans les fichiers `Color` (voir ci-dessous).
 
-### `Color`
+## Color
 
 Un fichier `Color` possède des lignes contenant les couleurs des carrés à afficher. Chaque ligne est au format suivant :
 ``` 
