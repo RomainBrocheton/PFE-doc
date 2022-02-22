@@ -12,7 +12,7 @@ L'application est axée autour de trois services : le serveur API (en NodeJS / E
 |     Frontend (docker)     |      80       |
 | Base de données (mongodb) | Service cloud |
 
-## Envirennement logiciel
+## Environnement logiciel
 ### API
 | **Nom du logiciel** | **Version** | **Description**                                 |
 |---------------------|-------------|-------------------------------------------------|

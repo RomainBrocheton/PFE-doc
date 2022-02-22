@@ -35,4 +35,4 @@ Le loadout de la requête API est :
 ```
 
 ## Déconnexion
-Les utilisateurs doivent pouvoir se déconnecter de l'application. Lorsque l'utilisateur cliquera sur le bouton de déconnexion, le stockage local contenant le token JWT sera supprimée et l'application reviendra sur la page de visualisation manuelle.
+Les utilisateurs doivent pouvoir se déconnecter de l'application. Lorsque l'utilisateur cliquera sur le bouton de déconnexion, le stockage local contenant le token JWT sera supprimé et l'application reviendra sur la page de visualisation manuelle.

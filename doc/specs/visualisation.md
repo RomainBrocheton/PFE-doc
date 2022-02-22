@@ -4,9 +4,9 @@
 
 Ce cas d'usage permet d'afficher sur une carte les résultats de l'analyse de trajectoires dans le but d'en faciliter la lecture. Cette étape affiche ainsi une matrice de carrés (le coté du carré peut être défini). Ces carrés seront [colorés](/doc/ref/files?id=color) en fonction du résultat de l'analyse.
 
-Aussi, il est possible de cliquer sur un carré pour ouvrir une pop-up contenant quelques informations complèmentaires (position GPS, signification de la couleur).
+Aussi, il est possible de cliquer sur un carré pour ouvrir une pop-up contenant quelques informations complémentaires (position GPS, signification de la couleur).
 
-Dans un cas particulier (avec direction), il est possible d'ajouter aux carrés une flêche signifiant la direction du traffic.
+Dans un cas particulier (avec direction), il est possible d'ajouter aux carrés une ou plusieurs flèches indiquant l'évolution du trafic dans une ou plusieurs direction(s).
 
 ## Visualisation manuelle
 
