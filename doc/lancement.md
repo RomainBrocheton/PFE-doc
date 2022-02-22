@@ -30,6 +30,7 @@ cd ./front
 ng serve --open
 ```
 
-!> La variable d'environnement `MONGO_URL` ne sera pas prise en compte dans ce cas ! Il est nécessaire de recopier l'URL d'accès à la base de données dans le fichier `./server/config.js`. Ce fichier de configuration sera utilisé dans le cas d'un lancement hors-Docker.
+> [!WARNING]
+> La variable d'environnement `MONGO_URL` ne sera pas prise en compte dans ce cas ! Il est nécessaire de recopier l'URL d'accès à la base de données dans le fichier `./server/config.js`. Ce fichier de configuration sera utilisé dans le cas d'un lancement hors-Docker.
 
 Une fois lancée, l'interface utilisateur sera accessible à l'adresse http://localhost:4200.

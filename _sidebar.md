@@ -14,3 +14,4 @@
     * [Insertion](/doc/specs/insertion)
 * Références
     * [Fichiers générés](/doc/ref/files)
+    * [Carte](/doc/ref/map)

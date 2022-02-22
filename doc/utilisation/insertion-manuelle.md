@@ -1,6 +1,7 @@
 # Insertion manuelle
 
-!> Il est nécessaire d'être connecté pour utiliser cette fonctionnalité.
+> [!NOTE]
+> Il est nécessaire d'être connecté pour utiliser cette fonctionnalité.
 
 Il est possible de sauvegarder en base de données les données d'une ville afin de faciliter leur visualisation. La [visualisation automatique](utilisation/visu-automatique) permet ensuite d'afficher une ville sauvegardée.
 
